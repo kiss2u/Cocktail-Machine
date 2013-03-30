@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AD5F7451706CD8700D4A803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F7441706CD8700D4A803 /* UIKit.framework */; };
+		3AD5F7471706CD8700D4A803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F7461706CD8700D4A803 /* Foundation.framework */; };
+		3AD5F7491706CD8700D4A803 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F7481706CD8700D4A803 /* CoreGraphics.framework */; };
+		3AD5F74F1706CD8700D4A803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F74D1706CD8700D4A803 /* InfoPlist.strings */; };
+		3AD5F7511706CD8700D4A803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F7501706CD8700D4A803 /* main.m */; };
+		3AD5F7551706CD8700D4A803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F7541706CD8700D4A803 /* AppDelegate.m */; };
+		3AD5F7571706CD8700D4A803 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F7561706CD8700D4A803 /* Default.png */; };
+		3AD5F7591706CD8700D4A803 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F7581706CD8700D4A803 /* Default@2x.png */; };
+		3AD5F75B1706CD8700D4A803 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F75A1706CD8700D4A803 /* Default-568h@2x.png */; };
+		3AD5F75E1706CD8700D4A803 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F75C1706CD8700D4A803 /* MainStoryboard_iPhone.storyboard */; };
+		3AD5F7611706CD8700D4A803 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F75F1706CD8700D4A803 /* MainStoryboard_iPad.storyboard */; };
+		3AD5F7641706CD8700D4A803 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F7631706CD8700D4A803 /* MainViewController.m */; };
+		3AD5F7671706CD8700D4A803 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F7661706CD8700D4A803 /* FlipsideViewController.m */; };
+		3AD5F76F1706CD8700D4A803 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F76E1706CD8700D4A803 /* SenTestingKit.framework */; };
+		3AD5F7701706CD8700D4A803 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F7441706CD8700D4A803 /* UIKit.framework */; };
+		3AD5F7711706CD8700D4A803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5F7461706CD8700D4A803 /* Foundation.framework */; };
+		3AD5F7791706CD8700D4A803 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AD5F7771706CD8700D4A803 /* InfoPlist.strings */; };
+		3AD5F77C1706CD8700D4A803 /* Cocktail_MachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5F77B1706CD8700D4A803 /* Cocktail_MachineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD5F7721706CD8700D4A803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AD5F7391706CD8700D4A803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD5F7401706CD8700D4A803;
+			remoteInfo = "Cocktail Machine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AD5F7411706CD8700D4A803 /* Cocktail Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cocktail Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5F7441706CD8700D4A803 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AD5F7461706CD8700D4A803 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AD5F7481706CD8700D4A803 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AD5F74C1706CD8700D4A803 /* Cocktail Machine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocktail Machine-Info.plist"; sourceTree = "<group>"; };
+		3AD5F74E1706CD8700D4A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AD5F7501706CD8700D4A803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AD5F7521706CD8700D4A803 /* Cocktail Machine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cocktail Machine-Prefix.pch"; sourceTree = "<group>"; };
+		3AD5F7531706CD8700D4A803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AD5F7541706CD8700D4A803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AD5F7561706CD8700D4A803 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3AD5F7581706CD8700D4A803 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3AD5F75A1706CD8700D4A803 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3AD5F75D1706CD8700D4A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3AD5F7601706CD8700D4A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3AD5F7621706CD8700D4A803 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3AD5F7631706CD8700D4A803 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3AD5F7651706CD8700D4A803 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		3AD5F7661706CD8700D4A803 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		3AD5F76D1706CD8700D4A803 /* Cocktail MachineTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cocktail MachineTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5F76E1706CD8700D4A803 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AD5F7761706CD8700D4A803 /* Cocktail MachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cocktail MachineTests-Info.plist"; sourceTree = "<group>"; };
+		3AD5F7781706CD8700D4A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AD5F77A1706CD8700D4A803 /* Cocktail_MachineTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocktail_MachineTests.h; sourceTree = "<group>"; };
+		3AD5F77B1706CD8700D4A803 /* Cocktail_MachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocktail_MachineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AD5F73E1706CD8700D4A803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F7451706CD8700D4A803 /* UIKit.framework in Frameworks */,
+				3AD5F7471706CD8700D4A803 /* Foundation.framework in Frameworks */,
+				3AD5F7491706CD8700D4A803 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5F7691706CD8700D4A803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F76F1706CD8700D4A803 /* SenTestingKit.framework in Frameworks */,
+				3AD5F7701706CD8700D4A803 /* UIKit.framework in Frameworks */,
+				3AD5F7711706CD8700D4A803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD5F7381706CD8700D4A803 = {
+			isa = PBXGroup;
+			children = (
+				3AD5F74A1706CD8700D4A803 /* Cocktail Machine */,
+				3AD5F7741706CD8700D4A803 /* Cocktail MachineTests */,
+				3AD5F7431706CD8700D4A803 /* Frameworks */,
+				3AD5F7421706CD8700D4A803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AD5F7421706CD8700D4A803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F7411706CD8700D4A803 /* Cocktail Machine.app */,
+				3AD5F76D1706CD8700D4A803 /* Cocktail MachineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AD5F7431706CD8700D4A803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F7441706CD8700D4A803 /* UIKit.framework */,
+				3AD5F7461706CD8700D4A803 /* Foundation.framework */,
+				3AD5F7481706CD8700D4A803 /* CoreGraphics.framework */,
+				3AD5F76E1706CD8700D4A803 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AD5F74A1706CD8700D4A803 /* Cocktail Machine */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F7531706CD8700D4A803 /* AppDelegate.h */,
+				3AD5F7541706CD8700D4A803 /* AppDelegate.m */,
+				3AD5F75C1706CD8700D4A803 /* MainStoryboard_iPhone.storyboard */,
+				3AD5F75F1706CD8700D4A803 /* MainStoryboard_iPad.storyboard */,
+				3AD5F7621706CD8700D4A803 /* MainViewController.h */,
+				3AD5F7631706CD8700D4A803 /* MainViewController.m */,
+				3AD5F7651706CD8700D4A803 /* FlipsideViewController.h */,
+				3AD5F7661706CD8700D4A803 /* FlipsideViewController.m */,
+				3AD5F74B1706CD8700D4A803 /* Supporting Files */,
+			);
+			path = "Cocktail Machine";
+			sourceTree = "<group>";
+		};
+		3AD5F74B1706CD8700D4A803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F74C1706CD8700D4A803 /* Cocktail Machine-Info.plist */,
+				3AD5F74D1706CD8700D4A803 /* InfoPlist.strings */,
+				3AD5F7501706CD8700D4A803 /* main.m */,
+				3AD5F7521706CD8700D4A803 /* Cocktail Machine-Prefix.pch */,
+				3AD5F7561706CD8700D4A803 /* Default.png */,
+				3AD5F7581706CD8700D4A803 /* Default@2x.png */,
+				3AD5F75A1706CD8700D4A803 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AD5F7741706CD8700D4A803 /* Cocktail MachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F77A1706CD8700D4A803 /* Cocktail_MachineTests.h */,
+				3AD5F77B1706CD8700D4A803 /* Cocktail_MachineTests.m */,
+				3AD5F7751706CD8700D4A803 /* Supporting Files */,
+			);
+			path = "Cocktail MachineTests";
+			sourceTree = "<group>";
+		};
+		3AD5F7751706CD8700D4A803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5F7761706CD8700D4A803 /* Cocktail MachineTests-Info.plist */,
+				3AD5F7771706CD8700D4A803 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AD5F7401706CD8700D4A803 /* Cocktail Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5F77F1706CD8700D4A803 /* Build configuration list for PBXNativeTarget "Cocktail Machine" */;
+			buildPhases = (
+				3AD5F73D1706CD8700D4A803 /* Sources */,
+				3AD5F73E1706CD8700D4A803 /* Frameworks */,
+				3AD5F73F1706CD8700D4A803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cocktail Machine";
+			productName = "Cocktail Machine";
+			productReference = 3AD5F7411706CD8700D4A803 /* Cocktail Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AD5F76C1706CD8700D4A803 /* Cocktail MachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AD5F7821706CD8700D4A803 /* Build configuration list for PBXNativeTarget "Cocktail MachineTests" */;
+			buildPhases = (
+				3AD5F7681706CD8700D4A803 /* Sources */,
+				3AD5F7691706CD8700D4A803 /* Frameworks */,
+				3AD5F76A1706CD8700D4A803 /* Resources */,
+				3AD5F76B1706CD8700D4A803 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AD5F7731706CD8700D4A803 /* PBXTargetDependency */,
+			);
+			name = "Cocktail MachineTests";
+			productName = "Cocktail MachineTests";
+			productReference = 3AD5F76D1706CD8700D4A803 /* Cocktail MachineTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AD5F7391706CD8700D4A803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joe Zhou";
+			};
+			buildConfigurationList = 3AD5F73C1706CD8700D4A803 /* Build configuration list for PBXProject "Cocktail Machine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AD5F7381706CD8700D4A803;
+			productRefGroup = 3AD5F7421706CD8700D4A803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD5F7401706CD8700D4A803 /* Cocktail Machine */,
+				3AD5F76C1706CD8700D4A803 /* Cocktail MachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AD5F73F1706CD8700D4A803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F74F1706CD8700D4A803 /* InfoPlist.strings in Resources */,
+				3AD5F7571706CD8700D4A803 /* Default.png in Resources */,
+				3AD5F7591706CD8700D4A803 /* Default@2x.png in Resources */,
+				3AD5F75B1706CD8700D4A803 /* Default-568h@2x.png in Resources */,
+				3AD5F75E1706CD8700D4A803 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3AD5F7611706CD8700D4A803 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5F76A1706CD8700D4A803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F7791706CD8700D4A803 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD5F76B1706CD8700D4A803 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AD5F73D1706CD8700D4A803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F7511706CD8700D4A803 /* main.m in Sources */,
+				3AD5F7551706CD8700D4A803 /* AppDelegate.m in Sources */,
+				3AD5F7641706CD8700D4A803 /* MainViewController.m in Sources */,
+				3AD5F7671706CD8700D4A803 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AD5F7681706CD8700D4A803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD5F77C1706CD8700D4A803 /* Cocktail_MachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AD5F7731706CD8700D4A803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD5F7401706CD8700D4A803 /* Cocktail Machine */;
+			targetProxy = 3AD5F7721706CD8700D4A803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AD5F74D1706CD8700D4A803 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5F74E1706CD8700D4A803 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AD5F75C1706CD8700D4A803 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5F75D1706CD8700D4A803 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3AD5F75F1706CD8700D4A803 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5F7601706CD8700D4A803 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3AD5F7771706CD8700D4A803 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AD5F7781706CD8700D4A803 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AD5F77D1706CD8700D4A803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AD5F77E1706CD8700D4A803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AD5F7801706CD8700D4A803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocktail Machine/Cocktail Machine-Prefix.pch";
+				INFOPLIST_FILE = "Cocktail Machine/Cocktail Machine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AD5F7811706CD8700D4A803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocktail Machine/Cocktail Machine-Prefix.pch";
+				INFOPLIST_FILE = "Cocktail Machine/Cocktail Machine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3AD5F7831706CD8700D4A803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocktail Machine.app/Cocktail Machine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocktail Machine/Cocktail Machine-Prefix.pch";
+				INFOPLIST_FILE = "Cocktail MachineTests/Cocktail MachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3AD5F7841706CD8700D4A803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cocktail Machine.app/Cocktail Machine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cocktail Machine/Cocktail Machine-Prefix.pch";
+				INFOPLIST_FILE = "Cocktail MachineTests/Cocktail MachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AD5F73C1706CD8700D4A803 /* Build configuration list for PBXProject "Cocktail Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5F77D1706CD8700D4A803 /* Debug */,
+				3AD5F77E1706CD8700D4A803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AD5F77F1706CD8700D4A803 /* Build configuration list for PBXNativeTarget "Cocktail Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5F7801706CD8700D4A803 /* Debug */,
+				3AD5F7811706CD8700D4A803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AD5F7821706CD8700D4A803 /* Build configuration list for PBXNativeTarget "Cocktail MachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD5F7831706CD8700D4A803 /* Debug */,
+				3AD5F7841706CD8700D4A803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AD5F7391706CD8700D4A803 /* Project object */;
+}
